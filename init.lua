@@ -1,0 +1,6 @@
+require("options")
+require("keymaps")
+require("config.lazy")
+require("lsp")
+require("json")
+vim.cmd.colorscheme("gruvbox")
