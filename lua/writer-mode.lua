@@ -24,9 +24,9 @@ function ToggleWriterMode()
         vim.keymap.del({ "n", "v" }, "k")
         vim.keymap.del({ "n", "v" }, "<Down>")
         vim.keymap.del({ "n", "v" }, "<Up>")
-        vim.keymap.set({ "n", "v" }, "$")
-        vim.keymap.set({ "n", "v" }, "_")
-        vim.keymap.set({ "n", "v" }, "0")
+        vim.keymap.del({ "n", "v" }, "$")
+        vim.keymap.del({ "n", "v" }, "_")
+        vim.keymap.del({ "n", "v" }, "0")
     end
 end
 
