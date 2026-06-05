@@ -31,6 +31,7 @@ vim.api.nvim_create_autocmd("FileType", {
         end)
 
         definir_atalho('<leader>jj', ':JsonFormat<CR>')
+        definir_atalho('<leader>m', ':JsonFormat<CR>')
         definir_atalho('<leader>jc', ':JsonCompact<CR>')
         definir_atalho('<leader>js', ':JsonSort<CR>')
     end
