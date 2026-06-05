@@ -32,4 +32,4 @@ end
 
 vim.api.nvim_create_user_command("WriterMode", ToggleWriterMode, {})
 
-vim.keymap.set({ "n", "v" }, "<leader>wm", ToggleWriterMode, { noremap = true, silent = true })
+vim.keymap.set({ "n", "v" }, "W", ToggleWriterMode, { noremap = true, silent = true })
