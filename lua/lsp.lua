@@ -74,4 +74,6 @@ vim.lsp.config('roslyn_ls', {
     }
 })
 
-vim.lsp.enable({ 'lua_ls', 'roslyn_ls' })
+vim.lsp.config('gopls', {})
+
+vim.lsp.enable({ 'lua_ls', 'roslyn_ls', 'gopls' })
